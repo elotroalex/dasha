@@ -1,15 +1,13 @@
 <!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Dasha</title>
-
-
     <link href="../css/main.css" rel="stylesheet" type="text/css" />
-
   </head>
-  <body><div id="container">
+
+  <body>
+    <div id="container">
       <div id="header">
         <div id="top_left">
           <canvas id="mark" width="200" height="200"> >> </canvas>
@@ -62,29 +60,7 @@
     </script>
         </div>
       </div>
-      <!-- text -->
       <div id="main">
-        <div id="center_left">
-          
-          <div class="center_v">
-            <canvas id="mark4" width="200" height="200"> >> </canvas>
-            <script type="text/javascript">
-        var c=document.getElementById("mark4");
-        var ctx=c.getContext("2d");
-        ctx.fillStyle="#FF0000";
-        ctx.beginPath();
-        ctx.moveTo(50, 80);
-        ctx.lineTo(110, 80);
-        ctx.strokeStyle = "#C0C0C0";
-        ctx.moveTo(80, 20);
-        ctx.lineTo(80, 140);
-        ctx.moveTo(95, 80);
-        ctx.arc(80,80,16,0,Math.PI*2,true);
-        ctx.stroke();
-            </script>
-          </div>
-          
-        </div>
         <div id="text">
           <h2>First Pitch</h2>
           <p>Esta, como todas las historias que valen la pena escuchar, es una historia exagerada.
@@ -151,30 +127,11 @@
             nos amenazan. De la libertad inalcanzada. No crean ustedes que en las historias de amor
             solo caben tres o cuatro corazones, en ellas cabe de todo si lo sabemos acotejar.</p>
         </div>
-        <div id="center_right">
-          <div class="center_v">
-            <canvas id="mark5" width="200" height="200"> >> </canvas>
-            <script type="text/javascript">
-        var c=document.getElementById("mark5");
-        var ctx=c.getContext("2d");
-        ctx.fillStyle="#FF0000";
-        ctx.beginPath();
-        ctx.moveTo(80, 80);
-        ctx.lineTo(140, 80);
-        ctx.strokeStyle = "#C0C0C0";
-        ctx.moveTo(110, 20);
-        ctx.lineTo(110, 140);
-        ctx.moveTo(125, 80);
-        ctx.arc(110,80,16,0,Math.PI*2,true);
-        ctx.stroke();
-          </script>
-          </div>
-        </div>
       </div>
-    <div id="footer">
-      <div id="bottom_left">
-        <canvas id="mark6" width="200" height="200"> >> </canvas>
-        <script type="text/javascript">
+      <div id="footer">
+        <div id="bottom_left">
+          <canvas id="mark6" width="200" height="200"> >> </canvas>
+          <script type="text/javascript">
         var c=document.getElementById("mark6");
         var ctx=c.getContext("2d");
         ctx.fillStyle="#FF0000";
@@ -186,11 +143,11 @@
         ctx.lineTo(140, 0);        
         ctx.stroke();
     </script>
-      </div>
-      <div id="bottom_center">
-        <div class="center_h">
-          <canvas id="mark7" width="200" height="200"> >> </canvas>
-          <script type="text/javascript">
+        </div>
+        <div id="bottom_center">
+          <div class="center_h">
+            <canvas id="mark7" width="200" height="200"> >> </canvas>
+            <script type="text/javascript">
         var c=document.getElementById("mark7");
         var ctx=c.getContext("2d");
         ctx.fillStyle="#FF0000";
@@ -204,11 +161,11 @@
         ctx.arc(80,80,16,0,Math.PI*2,true);
         ctx.stroke();
           </script>
+          </div>
         </div>
-      </div>
-      <div id="bottom_right">
-        <canvas id="mark8" width="200" height="200"> >> </canvas>
-        <script type="text/javascript">
+        <div id="bottom_right">
+          <canvas id="mark8" width="200" height="200"> >> </canvas>
+          <script type="text/javascript">
         var c=document.getElementById("mark8");
         var ctx=c.getContext("2d");
         ctx.fillStyle="#FF0000";
@@ -221,9 +178,8 @@
         
         ctx.stroke();
     </script>
+        </div>
       </div>
-    </div>  
-  
-  </div>
+    </div>
   </body>
 </html>
